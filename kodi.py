@@ -120,7 +120,7 @@ def SendCommand(command):
     KODI = '24.90.140.234'
   PORT = os.getenv('KODI_PORT')
   if not PORT or PORT == 'None':
-    PORT = '8444'
+    PORT = '8443'
   USER = os.getenv('KODI_USERNAME')
   if not USER or USER == 'None':
     USER = 'kodi'
